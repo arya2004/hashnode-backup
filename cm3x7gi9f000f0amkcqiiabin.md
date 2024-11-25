@@ -4,7 +4,7 @@ seoTitle: "Understanding the Go Compiler: From Source Code to Execution"
 seoDescription: "Understanding the Go Compiler: From Source Code to Execution. A Deep Dive into the Key Stages of Go Compilation, Optimization, and Execution"
 datePublished: Mon Nov 25 2024 15:51:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm3x7gi9f000f0amkcqiiabin
-slug: understanding-the-go-compiler-from-source-code-to-execution
+slug: understanding-the-go-compiler
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727970154197/4ea15b74-143e-4288-8a0c-17548a04d91e.png
 tags: go, golang, compiler
 
