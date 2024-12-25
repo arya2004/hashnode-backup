@@ -219,25 +219,7 @@ Reference semantics means that a variable holds a reference to an actual value s
 
 Understanding these semantics is vital, especially when working with loops and slices in Go.
 
-# For Loops and Copying
 
-
-
-Consider the following example where we attempt to modify elements of a slice within a loop:
-
-```go
-type Thing struct {
-    Field int
-}
-
-func main() {
-    things := []Thing{{1}, {2}, {3}}
-    for _, thing := range things {
-        thing.Field = 42
-    }
-    fmt.Println(things) // Output: [{1} {2} {3}]
-}
-```
 
 In this case, `thing` is a copy of each element in `things`, so modifications to `thing` do not affect the original slice. To make changes visible outside the loop, use the index:
 
