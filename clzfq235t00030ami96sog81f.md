@@ -221,9 +221,7 @@ Understanding these semantics is vital, especially when working with loops and s
 
 # For Loops and Copying
 
-In Go, when using the range operator in a for loop, the variable receives a copy of the element from the slice or array. This behavior can lead to issues if you intend to mutate the original elements.
 
-### Example: Modifying Elements in a Slice
 
 Consider the following example where we attempt to modify elements of a slice within a loop:
 
